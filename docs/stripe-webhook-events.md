@@ -10,11 +10,11 @@ The webhook events are read-only records that are provided to the user to highli
 
 You can find the Webhook events located under the **Stripe Webhook events** object in the Stripe for Salesforce application. In the webhook events list view will provide information such as the ***SWE-xxxxxx*** (*Stripe webhook event record name*), the event type (*the Stripe event that is called*), the webhook status,the Stripe object ID, and creation and modification dates.
 
-![StripeWebhook1](assets\Stripe-Webhook-Events1.png)
+![StripeWebhook1](assets/Stripe-Webhook-Events1.png)
 
 Clicking on the name of one of the Stripe webhook events opens up the record for further inspection. In the record we see the similar information as the list view but also information about the statuses of the webhooks and any webhook failure information.&#x20;
 
-![StripeWebhook2](assets\Stripe-Webhook-Events2.png)
+![StripeWebhook2](assets/Stripe-Webhook-Events2.png)
 
 ## Stripe Webhook event Statuses
 

@@ -10,20 +10,20 @@ Charges are read-only records that are provided to the user to highlight every i
 
 You can find the Charges located under the **Charge** object in the Stripe for Salesforce application. The Charge's list view, provides information such as the ***SCR-xxxxxx*** (*Stripe Charge record name*), the amount, the amount refunded, the transaction description, the status and the charge creation date and time.
 
-![Charges1](assets\Charges1.png)
+![Charges1](assets/Charges1.png)
 
 Clicking on the name of one of the charge opens up the record for further inspection.&#x20;
 
 In the record we see the similar information as the list view but also information about the transaction amounts, any further Stripe IDs for reference, and any relevant records of refunds.
 
-![Charges2](assets\Charges2.png)
+![Charges2](assets/Charges2.png)
 
 
 ## Sync Charges from Stripe
 
 If you need to manually sync your payment intents from Stripe, without waiting for the webhooks to automatically complete that, you will need to navigate to the charge record and locate and click the action button **Charge**. This will pull the data from Stripe to your Salesforce org. testtesttest
 
-![Charges3](assets\Charges3.png)
+![Charges3](assets/Charges3.png)
 
 
 ## Charges Statuses
