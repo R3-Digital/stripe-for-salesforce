@@ -10,19 +10,21 @@ Charges are read-only records that are provided to the user to highlight every i
 
 You can find the Charges located under the **Charge** object in the Stripe for Salesforce application. The Charge's list view, provides information such as the ***SCR-xxxxxx*** (*Stripe Charge record name*), the amount, the amount refunded, the transaction description, the status and the charge creation date and time.
 
-<div data-full-width="true"><figure><img src="https://987883418-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F7t6q91Y6zv0SwcAX1Met%2Fuploads%2Fog3uyiH1CIo82DpunHeE%2FScreenshot%202023-11-06%20at%2014.46.14.png?alt=media&#x26;token=38faa25b-a40c-49c5-b055-6dbec693ca38" alt=""><figcaption></figcaption></figure></div>
+![Charges1](assets\Charges1.png)
 
 Clicking on the name of one of the charge opens up the record for further inspection.&#x20;
 
 In the record we see the similar information as the list view but also information about the transaction amounts, any further Stripe IDs for reference, and any relevant records of refunds.
 
-<div data-full-width="true"><figure><img src="https://987883418-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F7t6q91Y6zv0SwcAX1Met%2Fuploads%2Ftbt7qn5OHNUfhmj0XDCH%2FScreenshot%202023-11-06%20at%2014.46.39.png?alt=media&#x26;token=75b332fd-805b-4ff1-86b4-0b572792239c" alt=""><figcaption></figcaption></figure></div>
+![Charges2](assets\Charges2.png)
+
 
 ## Sync Charges from Stripe
 
-If you need to manually sync your payment intents from Stripe, without waiting for the webhooks to automatically complete that, you will need to navigate to the charge record and locate and click the action button **Charge**. This will pull the data from Stripe to your Salesforce org.
+If you need to manually sync your payment intents from Stripe, without waiting for the webhooks to automatically complete that, you will need to navigate to the charge record and locate and click the action button **Charge**. This will pull the data from Stripe to your Salesforce org. testtesttest
 
-<div data-full-width="true"><figure><img src="https://987883418-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F7t6q91Y6zv0SwcAX1Met%2Fuploads%2FYomoo5BJC6R0s2YkI69C%2FScreenshot%202023-11-06%20at%2014.46.39.png?alt=media&#x26;token=1fbb30a4-eb32-4a11-8676-9809294db648" alt=""><figcaption></figcaption></figure></div>
+![Charges3](assets\Charges3.png)
+
 
 ## Charges Statuses
 
