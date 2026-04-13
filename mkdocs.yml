@@ -1,0 +1,48 @@
+site_name: Stripe for Salesforce
+site_url: https://r3-digital.github.io/stripe-for-salesforce/
+
+theme:
+  name: material
+  palette:
+    # Logic for Light and Dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections  
+    - navigation.footer    
+    - navigation.expand    
+    - content.code.copy    
+
+nav:
+  - Home: index.md
+  - How It Works: how-it-works.md
+  - Documentation & UI Overview: documentation-and-ui-overview.md
+  - Customer Accounts: customer-accounts.md
+  - Products: products.md
+  - Prices: prices.md
+  - Payment Methods: payment-methods.md
+  - Payment Intents: payment-intents.md
+  - Charges: charges.md
+  - Invoices: invoices.md
+  - Subscriptions: subscriptions.md  # Matches your current filename exactly
+  - Refunds: refunds.md
+  - Virtual Terminal: virtual-terminal.md
+  - Stripe Webhook Events: stripe-webhook-events.md
+  - Feedback & Contact: feedback-and-contact.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
