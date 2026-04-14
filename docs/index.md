@@ -1,7 +1,7 @@
 # Stripe For Salesforce
 
 ## Welcome!
-
+!!! info "Deployment successful"
 Welcome to the Stripe for Salesforce app end user documentation!
 
 This documentation aims to guide you through the user actions of our integration application between Stripe and Salesforce.
