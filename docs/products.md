@@ -57,7 +57,7 @@ To send this product information to Stripe, click on the **Send Product** action
 
 ![Products12](assets/Products12.png)
 
-![Products13](assets/Products12.png)
+![Products13](assets/Products13.png)
 *Sync flow completion message*
 
 To verify whether the product is synced with Stripe, you can go to your Stripe account and look at the product catalogue and view the synced products.
